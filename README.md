@@ -14,9 +14,6 @@ namespace Unturned_Kordinat
             Instance = this;
             U.Events.OnPlayerConnected += oyuncubaglandı;
         } 
-        ```
-       
-        ```
         private void oyuncubaglandı(UnturnedPlayer caller) 
         {
             if ((DateTime.Now - DateTime.Now).TotalSeconds >= 0.1)
